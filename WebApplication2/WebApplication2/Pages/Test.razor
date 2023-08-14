@@ -1,0 +1,37 @@
+﻿@page "/test"
+@inject ProtectedLocalStorage localStorage
+@inject IJSRuntime js
+
+@if (uid == "" || token == "" || uid == "")
+{
+    <h3>Not login</h3>
+}
+else 
+{
+    <h3>Login Done @uid @token </h3>
+}
+
+<button @onclick="BtnClick">Click</button>
+@code {
+    private string uid = "";
+    private string token = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine($"{uid == null} {token}");
+        var uidRes = await localStorage.GetAsync<string>("uid");
+        uid = uidRes.Value;
+        var tokenRes = await localStorage.GetAsync<string>("token");
+        token = tokenRes.Value;
+
+
+
+        Console.WriteLine($"{uid} {token}");
+    }
+    private void BtnClick()
+    {
+        //js.InvokeVoidAsync("console.log", "click3");
+        //js.InvokeVoidAsync("SetData", "test", "testdata");
+        localStorage.SetAsync("test2", "testdata2");
+    }
+}

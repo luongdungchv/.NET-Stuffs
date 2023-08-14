@@ -1,0 +1,32 @@
+﻿.header-element2{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:70px;
+    flex-direction:row;
+}
+.header-element{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.header-element-menu {
+    display:none;
+}
+@media(max-width:600px){
+    .collapse{
+        display:none;
+    }
+    .header-element-menu {
+        display:inline-block;
+        height: 50px;
+        border: none;
+        background-color: #ffd800;
+        margin-top: 20px;
+        font-weight: bold;
+        width: 17%;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+

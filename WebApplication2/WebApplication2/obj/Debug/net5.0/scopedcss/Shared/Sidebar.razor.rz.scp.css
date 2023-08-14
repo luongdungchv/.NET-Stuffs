@@ -1,0 +1,14 @@
+.sidebar[b-ml1azsqu7l]{
+    flex:0.2;   
+}
+.sidebar-collapse[b-ml1azsqu7l]{
+
+}
+.sidebar > hr[b-ml1azsqu7l]{
+    height:1px;
+    border:0;
+    background-color:lightgray;
+}
+.collapse[b-ml1azsqu7l]{
+    display:none;
+}

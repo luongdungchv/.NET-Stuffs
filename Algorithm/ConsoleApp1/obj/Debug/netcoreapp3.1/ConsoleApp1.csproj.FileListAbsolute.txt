@@ -1,0 +1,42 @@
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\OthersProject\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\OthersProject\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+D:\MyProjects\VisualStudio Projects\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

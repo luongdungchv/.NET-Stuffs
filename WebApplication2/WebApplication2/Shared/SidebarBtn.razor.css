@@ -1,0 +1,35 @@
+﻿
+.nav-link2:hover > .oi {
+    color:red;
+}
+::deep i {
+    padding-right:20px;
+    top: -2px;
+    color: gray;
+}
+.sidebar-btn ::deep a {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    height:36px;
+    align-items:center;
+    flex:1;
+    padding-left:14px
+}
+.sidebar-btn ::deep a:hover {
+    background-color:lightgray;
+}
+    .sidebar-btn ::deep a:active {
+        background-color: gray;
+    }
+    .sidebar-btn:hover ::deep i {
+        color: red;
+    }
+.sidebar-btn-collapse ::deep span{
+    display:none;
+}
+
+
+

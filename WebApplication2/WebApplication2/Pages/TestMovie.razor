@@ -1,0 +1,26 @@
+﻿@page "/watch/{id}"
+@using System.Text
+<video width="700" height="500" controls>
+    <source src="https://localhost:1234/test/download/12345" , type="video/mp4" />
+</video>
+<button @onclick="BtnClick">Click</button>
+<p>
+    @val
+</p>
+@code {
+    [Parameter]
+    public string id { get; set; }
+
+    private string val;
+
+    public void BtnClick()
+    {
+        var req = WebRequest.Create("https://localhost:1234/test/download/12345") as HttpWebRequest;
+        var res = req.GetResponse().GetResponseStream();
+        var reader = new StreamReader(res);
+        val = reader.ReadToEnd();
+        var bytes = Encoding.ASCII.GetBytes(val);
+        
+        Console.Write(val);
+    }
+}

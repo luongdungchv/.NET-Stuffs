@@ -1,0 +1,30 @@
+﻿@page "/"
+@layout MainPageLayout
+
+<div class="list-video">
+    @*<VIdeoBtn />
+        <VIdeoBtn />
+        <VIdeoBtn />
+        <VIdeoBtn />
+        <VIdeoBtn />
+        <VIdeoBtn />*@
+    @if (videoData != null)
+    {
+        foreach (var i in videoData.names)
+        {
+            <VIdeoBtn VideoId="@i" />
+        }
+    }
+    <VIdeoBtn VideoId="t" />
+</div>
+@code{
+    private VideoList videoData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = new HttpClient();
+        var data = await client.GetStringAsync("http://localhost:5050");
+        videoData = JsonConvert.DeserializeObject<VideoList>(data);
+
+    }
+}

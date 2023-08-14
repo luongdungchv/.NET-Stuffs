@@ -1,0 +1,29 @@
+.header[b-szoxmp9yjs]{
+    display:flex;
+    background-color:white;
+    padding:8px;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    align-items:center;
+    z-index:1000;
+    height:60px;
+}
+.header-right[b-szoxmp9yjs]{
+    margin-right:10px;
+    display:flex;
+    align-items:center;
+}
+.header-left[b-szoxmp9yjs]{
+    margin-left:6px;
+    display:flex;
+    align-items:center;
+}
+.header-logo[b-szoxmp9yjs] {
+    height: 27px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+[b-szoxmp9yjs] .header-icon {
+    margin-right: 14px;
+}

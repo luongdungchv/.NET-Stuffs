@@ -1,0 +1,7 @@
+﻿.list-video {
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #ededed;
+    position:sticky;
+    flex:0.8;
+}

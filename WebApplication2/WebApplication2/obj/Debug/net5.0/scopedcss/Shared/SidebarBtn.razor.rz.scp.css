@@ -1,0 +1,35 @@
+
+.nav-link2:hover > .oi[b-vbc1pp2ybx] {
+    color:red;
+}
+[b-vbc1pp2ybx] i {
+    padding-right:20px;
+    top: -2px;
+    color: gray;
+}
+.sidebar-btn[b-vbc1pp2ybx]  a {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    height:36px;
+    align-items:center;
+    flex:1;
+    padding-left:14px
+}
+.sidebar-btn[b-vbc1pp2ybx]  a:hover {
+    background-color:lightgray;
+}
+    .sidebar-btn[b-vbc1pp2ybx]  a:active {
+        background-color: gray;
+    }
+    .sidebar-btn:hover[b-vbc1pp2ybx]  i {
+        color: red;
+    }
+.sidebar-btn-collapse[b-vbc1pp2ybx]  span{
+    display:none;
+}
+
+
+

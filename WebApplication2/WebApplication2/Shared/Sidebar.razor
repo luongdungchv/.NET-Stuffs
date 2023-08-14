@@ -1,0 +1,18 @@
+﻿<div class="@className">
+    <SidebarBtn iconName="home" name="Home" className="@btnClass"/>
+    <SidebarBtn iconName="@MatIconNames.Whatshot" name="Trending" className="@btnClass"/>
+    <SidebarBtn iconName="@MatIconNames.Subscriptions" name="Subscription" className="@btnClass"/>
+    <SidebarBtn iconName="@MatIconNames.History" name="History" className="@btnClass"/>
+    <hr/>
+    <SidebarBtn iconName="@MatIconNames.Video_library" name="Library" className="@btnClass"/>
+    <SidebarBtn iconName="@MatIconNames.Watch_later" name="Watch Later" className="@btnClass"/>
+
+</div>
+@code {
+    [Parameter]
+    public bool Collapse { get; set; }
+    [Parameter]
+    public string className { get; set; }
+
+    private string btnClass => Collapse ? "sidebar-btn-collapse" : null;
+}

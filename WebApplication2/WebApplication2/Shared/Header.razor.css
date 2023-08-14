@@ -1,0 +1,29 @@
+﻿.header{
+    display:flex;
+    background-color:white;
+    padding:8px;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    align-items:center;
+    z-index:1000;
+    height:60px;
+}
+.header-right{
+    margin-right:10px;
+    display:flex;
+    align-items:center;
+}
+.header-left{
+    margin-left:6px;
+    display:flex;
+    align-items:center;
+}
+.header-logo {
+    height: 27px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+::deep .header-icon {
+    margin-right: 14px;
+}

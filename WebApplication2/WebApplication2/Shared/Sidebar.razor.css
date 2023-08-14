@@ -1,0 +1,14 @@
+﻿.sidebar{
+    flex:0.2;   
+}
+.sidebar-collapse{
+
+}
+.sidebar > hr{
+    height:1px;
+    border:0;
+    background-color:lightgray;
+}
+.collapse{
+    display:none;
+}

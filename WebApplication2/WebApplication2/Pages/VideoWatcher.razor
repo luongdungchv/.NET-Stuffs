@@ -1,0 +1,35 @@
+﻿@page "/videowatcher"
+@inject ProtectedLocalStorage localStorage
+
+@if (VideoId != "t")
+{
+    <iframe width="560"
+            height="315"
+            src="https://www.youtube.com/embed/@VideoId"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+}
+else
+{
+    <video width="700" height="500" controls>
+        <source src="D:\MyProjects\VisualStudio Projects\WebApplication2\WebApplication2\vid.mp4" , type="video/mp4" />
+    </video>
+}
+@code {
+    public string VideoId { get; set; }
+
+
+    public string VideoIdMethod()
+    {
+        var res = localStorage.GetAsync<string>("vidId");
+        return res.Result.Value;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        var res = await localStorage.GetAsync<string>("vidId");
+        VideoId = res.Value;
+    }
+}

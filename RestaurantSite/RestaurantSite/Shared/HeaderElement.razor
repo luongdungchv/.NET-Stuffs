@@ -1,0 +1,26 @@
+﻿<div class="header-element">
+    <button class="header-element-menu" @onclick="CollapseMenu">
+        Menu
+    </button>
+    <div class="header-element2 @collapseClass">
+        <HeaderOption Text="Tacos" />
+        <HeaderOption Text="Beers" />
+        <HeaderOption Text="Wines" />
+        <HeaderOption Text="Desserts" />
+        <HeaderOption Text="Reservations" />
+    </div>
+</div>
+@code {
+    private bool collapse = true;
+    private string collapseClass;
+    private void CollapseMenu()
+    {
+        Console.WriteLine(collapse);
+        collapse = !collapse;
+        collapseClass = collapse ? "collapse" : "";
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        collapseClass = collapse ? "collapse" : "";
+    }
+}

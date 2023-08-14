@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+<div class="main-page">
+    <Header MenuClickAction="MenuClick"/>
+    <div class="app-page">
+        <Sidebar Collapse="@collapse" className="@sidebarClass"/>
+        @Body
+    </div>
+</div>
+@code{
+    public int val = 0;
+    public bool collapse = false;
+    private string sidebarClass = "sidebar";
+    public void MenuClick()
+    {
+        Console.Write("Clicked");
+        collapse = !collapse;
+        sidebarClass = collapse ? "sidebar-collapse" : "sidebar";
+    }
+}
+
+ 

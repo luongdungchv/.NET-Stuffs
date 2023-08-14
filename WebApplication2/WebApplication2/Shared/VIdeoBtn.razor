@@ -1,0 +1,29 @@
+﻿@inject NavigationManager navManager
+@inject ProtectedLocalStorage localStorage
+
+
+<div class="video-btn" @onclick="OnVideoClick">
+    <img class="video-thumbnail" src="https://img.youtube.com/vi/@VideoId/sddefault.jpg" />
+    <div class="video-des">
+        <div class="avatar-container">
+            <img class="channel-avatar" src="https://yt3.ggpht.com/5nry4-Zkk5cDoFd7tbd-n4ivth0ridfZAhYTAzLrOpsNx7Yn-Ai61NidnS1-sAqdlZKTvVvs8Rw=s68-c-k-c0x00ffffff-no-rj" />
+
+        </div>
+        <div class="text-des">
+            <span class="video-title">This is a video</span>
+            <span class="video-channel">Channel name</span>
+        </div>
+    </div>
+   
+</div>
+@code {
+    [Parameter]
+    public string VideoId { get; set; }
+
+    private void OnVideoClick()
+    {
+        Console.Write(VideoId);
+        localStorage.SetAsync("vidId", VideoId);
+        navManager.NavigateTo($"videowatcher");
+    }
+}

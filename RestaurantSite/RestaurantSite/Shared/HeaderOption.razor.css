@@ -1,0 +1,10 @@
+﻿.header-option {
+    height: 50px;
+    border: none;
+    background-color: #ffd800;
+    margin-top: 20px;
+    font-weight: bold;
+    width:17%;
+    font-size:20px;
+    text-transform:uppercase;
+}

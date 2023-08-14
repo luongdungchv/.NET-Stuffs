@@ -1,0 +1,54 @@
+.second-element[b-4my375ntxm]{
+    padding-top:40px;
+    display:grid;
+    grid-gap:20px;
+    grid-template-areas:
+        "c1 c1 c2"
+        "c1 c1 c3";
+}
+.featured[b-4my375ntxm] {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+    grid-area:c1;
+    background-size:cover;
+    min-height: 400px;
+    background-position:bottom right;  
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:50px;
+    justify-content:center;
+}
+.featured > h3[b-4my375ntxm]{
+    background-color: #ffd800;
+    font-weight:bold;
+    width:28%;
+    padding:5px;
+}
+.featured > p[b-4my375ntxm]{
+    background-color: #ffd800;
+    font-weight:bold;
+    width:17%;
+    font-size:15px;
+    padding:5px;
+}
+.option[b-4my375ntxm]{
+    background-color:#ffd800;
+    cursor:pointer;
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+}
+.option > h1[b-4my375ntxm]{
+    margin: 50px auto 10px auto;
+}
+.option > h5[b-4my375ntxm]{
+    font-weight:bold;
+    margin: 0px auto 10px auto;
+}
+.c2[b-4my375ntxm]{
+    grid-area:c2;
+}
+.c3[b-4my375ntxm]{
+    grid-area:c3;
+}

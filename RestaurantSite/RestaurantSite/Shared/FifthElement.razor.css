@@ -1,0 +1,27 @@
+.fifth-element{
+    padding-top:20px;
+}
+.gallery{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+img{
+    width:100%;
+}
+h5{
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+h5:before, h5:after{
+    background:linear-gradient(to var(--dir, left), yellow, transparent);
+    content: "";
+    width: 40%;
+    height:12px;
+    margin-top:6px;
+}
+h5:after{
+    --dir:right;
+}

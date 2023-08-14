@@ -1,0 +1,23 @@
+﻿.panel{
+    width:270px;
+    height:450px;
+    background-color:white;
+}
+.panel-img{
+    width:100%;
+    display:block;
+    height:auto;
+    padding-bottom:50px;
+}
+h6, h5{
+    padding-bottom:50px;
+    text-align:center;
+    margin:auto
+}
+h5{
+    font-weight:bold;
+}
+h6{
+    width:75%;
+    color:gray;
+}

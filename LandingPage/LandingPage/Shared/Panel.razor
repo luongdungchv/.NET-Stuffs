@@ -1,0 +1,13 @@
+﻿<div class="panel">
+    <img src="@ImgSrc" class="panel-img"/>
+    <h5>@Title</h5>
+    <h6>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.
+    </h6>
+</div>
+@code {
+    [Parameter]
+    public string ImgSrc { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+}

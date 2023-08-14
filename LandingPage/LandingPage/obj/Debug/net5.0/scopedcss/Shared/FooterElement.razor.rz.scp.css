@@ -1,0 +1,17 @@
+.footer-element[b-xxts2ilscc]{
+    display:flex;
+}
+.footer-element-content1[b-xxts2ilscc], .footer-element-content2[b-xxts2ilscc]{
+    text-align:center;
+    background-color:black;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;
+    flex:50%;
+}
+span[b-xxts2ilscc]{
+    font-size:1.25rem;
+}
+#colored[b-xxts2ilscc]{
+    color:cyan;
+}

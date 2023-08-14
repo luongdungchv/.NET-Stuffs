@@ -1,0 +1,25 @@
+﻿<div class="header">
+    <div class="header-left">
+        <MatIcon Icon="@MatIconNames.Menu" @onclick="MenuClickAction"/>
+        <img class="header-logo"
+             src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_of_YouTube_%282005-2011%29.svg"
+             alt="" />
+    </div>
+
+    <div class="header-center">
+    </div>
+    <div class="header-right">
+        @*<span class="oi oi-video header-icon"></span>
+        <span class="oi oi-badge header-icon"></span>
+        <span class="oi oi-bell header-icon"></span>*@
+        <MatIcon Class="header-icon" Icon="@MatIconNames.Video_call" />
+        <MatIcon Class="header-icon" Icon="@MatIconNames.Apps"/>
+        <MatIcon Class="header-icon" Icon="@MatIconNames.Notifications" />
+    </div>
+</div>
+
+@code {
+    public string value;
+    [Parameter]
+    public EventCallback MenuClickAction { get; set; }
+}

@@ -1,0 +1,39 @@
+.video-btn[b-fbyu1frnye]{
+    width:300px;
+    height:300px;
+    margin-right:30px;
+    padding-bottom: 20px;
+}
+.video-btn:hover[b-fbyu1frnye]{
+    cursor:pointer;
+}
+.video-thumbnail[b-fbyu1frnye]{
+    width:300px;
+    height:200px;
+}
+.video-des[b-fbyu1frnye]{
+    display:flex;
+}
+.channel-avatar[b-fbyu1frnye]{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+.text-des[b-fbyu1frnye]{
+    flex:0.8;   
+    display:flex;
+    flex-direction:column;
+}
+.video-title[b-fbyu1frnye]{
+    font-weight:bold;
+    font-size:20px;
+}
+.video-channel[b-fbyu1frnye] {
+    font-size: 13px;
+    color: gray;
+}
+.avatar-container[b-fbyu1frnye]{
+    flex:0.2;
+    text-align:center;
+    margin:auto;
+}

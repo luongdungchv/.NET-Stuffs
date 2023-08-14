@@ -1,0 +1,37 @@
+﻿.fourth-element{
+    display:flex;
+    gap:10px;
+    margin-top:40px;
+    background-color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+}
+    .fourth-element > .fourth-element-img {
+        flex: 0.2;
+        height:100%;
+        
+    }
+    .fourth-element > .fourth-element-des{
+        flex:0.8;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:10px;
+    }
+p{
+    font-weight:bold;
+}
+.txt1{
+    font-size:25px;
+}
+.txt2{
+    font-size:17px;
+}
+button{
+    background-color:orange;
+    border:none;
+    width:20%;
+    padding-top:5px;
+    padding-bottom:5px;
+}

@@ -1,0 +1,18 @@
+﻿<div class="sidebar-btn @className">
+    <NavLink class="nav-link2" href="" Match="NavLinkMatch.All" @onclick="Test">
+        <MatIcon Icon="@iconName"/>
+        <span>@name</span>
+    </NavLink>
+</div>
+@code {
+    [Parameter]
+    public string className { get; set; }
+    [Parameter]
+    public string iconName { get; set; }
+    [Parameter]
+    public string name { get; set; }
+    private void Test()
+    {
+        Console.WriteLine("clicked");
+    }
+}

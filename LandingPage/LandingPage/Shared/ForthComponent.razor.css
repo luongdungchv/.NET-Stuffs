@@ -1,0 +1,17 @@
+﻿.forth-component{
+    width:100%;
+}
+h3, h5{
+    
+    text-align:center;
+}
+h3{
+    font-weight:bold;
+    padding-top:50px;
+}
+h5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 80%;
+}

@@ -1,0 +1,17 @@
+﻿.footer-element{
+    display:flex;
+}
+.footer-element-content1, .footer-element-content2{
+    text-align:center;
+    background-color:black;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;
+    flex:50%;
+}
+span{
+    font-size:1.25rem;
+}
+#colored{
+    color:cyan;
+}

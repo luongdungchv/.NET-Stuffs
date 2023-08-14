@@ -1,0 +1,43 @@
+﻿@page "/counter"
+@inject NavigationManager navManager
+@inject ProtectedLocalStorage localStorage
+
+<EditForm Model="@loginInfo" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <InputText @bind-Value="@loginInfo.Username"/>
+    <ValidationMessage For="() => loginInfo.Username"/>
+    <InputText @bind-Value="@loginInfo.Password"/>
+    <ValidationMessage For="() => loginInfo.Password"/>
+    <button type="submit">Submit</button>
+</EditForm>
+
+<p>@result</p>
+
+@code {
+    private LoginInfo loginInfo = new();
+    private string result;
+    private void HandleValidSubmit()
+    {
+        Console.Write("valid");
+        var request = WebRequest.Create("https://localhost:1234/test/post") as HttpWebRequest;
+        request.Method = "POST";
+        request.ContentType = "application/json";
+        using (var writer = new StreamWriter(request.GetRequestStream()))
+        {
+            var json = JsonConvert.SerializeObject(loginInfo);
+            writer.Write(json);
+        }
+        var response = request.GetResponse() as HttpWebResponse;
+        using (var reader = new StreamReader(response.GetResponseStream()))
+        {
+            result = reader.ReadToEnd();
+            if (result == "failed") return;
+            var resData = JsonConvert.DeserializeObject<UserAuth>(result);
+            localStorage.SetAsync("uid", resData.uid);
+            localStorage.SetAsync("token", resData.token);
+            navManager.NavigateTo("test");
+            Console.Write(result);
+        }
+    }
+}

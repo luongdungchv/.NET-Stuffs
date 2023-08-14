@@ -1,0 +1,26 @@
+.fifth-element[b-x7oz8np3lw]{
+    display:flex;
+}
+.fifth-element-content1[b-x7oz8np3lw]{
+    flex:50%;
+    text-align:center;
+    background-color:#00b1ff;
+    color:white;
+}
+.fifth-element-content2[b-x7oz8np3lw]{
+    flex:50%;
+    text-align:center;
+    background-color:#333333;
+    color:white;
+}
+h3[b-x7oz8np3lw]{
+    padding-top:50px;
+    padding-bottom:50px;
+    margin:auto;
+    font-weight:bold;
+}
+h5[b-x7oz8np3lw]{
+    padding-bottom:50px;
+    margin:auto;
+    width:75%;
+}
